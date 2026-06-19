@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://stahe.github.io/de-nhibernate-dotnet-dec-2011/fazit.html">
       
       
-        <link rel="prev" href="springnhibernate-integration.html">
+        <link rel="prev" href="spring-integration--nhibernate.html">
       
       
       
@@ -303,14 +303,14 @@
   
   
     <li class="md-nav__item">
-      <a href="einfuhrung-in-nhibernate-orm.html" class="md-nav__link">
+      <a href="einfuhrung-in-orm-nhibernate.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    1. Einführung in NHibernate ORM
+    1. Einführung in ORM NHibernate
   
 
     
@@ -330,14 +330,14 @@
   
   
     <li class="md-nav__item">
-      <a href="springnhibernate-integration.html" class="md-nav__link">
+      <a href="spring-integration--nhibernate.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    2. Spring/NHibernate-Integration
+    2. Spring-Integration / NHibernate
   
 
     
@@ -404,63 +404,63 @@
 
 
 
-<p><a id="refheading867052117501572"></a></p>
+<p><span id="refheading867052117501572" name="refheading867052117501572" class="odt-bookmark-anchor"></span></p>
 <h1 id="3-fazit">3. <span style="color: #365f91">Fazit</span></h1>
-<p>Wir haben die wichtigsten Konzepte von NHibernate vorgestellt. Der Beispielcode ist |HIER| in Form von zwei Visual Studio 2010-Projekten verfügbar.</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000070B0000035CC6A3892B.png" width="680" height="324" style="display:inline-block; margin:4px;width:17.997cm;height:8.585cm;" class="odt-zoomable" data-zoom-src="images/100000000000070B0000035CC6A3892B.png" /></td></tr></table>
+<p>Wir haben die wichtigsten Konzepte von NHibernate vorgestellt. Der Beispielcode ist |ICI| in Form von zwei Visual Studio 2010-Projekten verfügbar.</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000070B0000035CC6A3892B.png" width="680" height="324" style="display:inline-block; margin:4px;width:17.997cm;height:8.583cm;" class="odt-zoomable" data-zoom-src="images/100000000000070B0000035CC6A3892B.png" /></td></tr></table>
 
 <p>Das Projekt [pam-nhibernate-demos] enthält drei Konfigurationsdateien [1]:</p>
 <ul>
-  <li>eine für das MySQL-DBMS [App.config.MySQL]
+  <li>eine für SGBD, MySQL und [App.config.MySQL]
   </li>
-  <li>eine für das SQL Server-DBMS [App.config.SQLServer]
+  <li>eine für SGBD, SQL und Server [App.config.SQLServer]
   </li>
-  <li>eine für das SQL Server Compact-DBMS [App.config.SQLServerCe]
+  <li>eine für den SGBD SQL Server Compact [App.config.SQLServerCe]
   </li>
 </ul>
 
 <p>Um sie zu verwenden, ersetzen Sie einfach [App.config] durch die entsprechende Datei.</p>
-<p>In [2] befindet sich der vollständige Ordner zu diesem Dokument:</p>
+<p>In [2], dem vollständigen Ordner, der diesem Dokument beiliegt:</p>
 <ul>
   <li>Der Ordner [databases] [3] enthält 
     <ul>
-      <li>ein SQL-Skript zur Erstellung der MySQL-Datenbank
+      <li>ein Skript SQL zur Erstellung der Datenbank MySQL
       </li>
-      <li>eine SQL Server 2005-Datenbank
+      <li>eine SQL-Datenbank für Server 2005
       </li>
-      <li>eine SQL Server Compact 3.5-Datenbank
+      <li>eine Datenbank SQL für Server Compact 3.5
       </li>
     </ul>
   </li>
-  <li>Der Ordner [libnet4] [4] enthält die für das Visual Studio-Projekt erforderlichen DLLs.
+  <li>den Ordner [libnet4] [4] enthält die für das Visual Studio-Projekt erforderlichen Dateien DLL.
   </li>
-  <li>Die Ordner [pam-nhibernate-demos] und [pam-spring-nhibernate-dao] gehören zu den beiden zuvor besprochenen Visual Studio 2010-Projekten.
+  <li>Die Ordner [pam-nhibernate-demos] und [pam-spring-nhibernate-dao] gehören zu den beiden zuvor behandelten Visual Studio 2010-Projekten.
   </li>
 </ul>
 
-<p>Dieses Dokument lässt sich anhand einer Fallstudie näher untersuchen:</p>
+<p>Dieses Dokument kann später durch eine Fallstudie vertieft werden:</p>
 <ul>
-  <li><b>Erstellen einer dreischichtigen Anwendung mit ASP.NET, C#, Spring.net und Nhibernate </b>[<a href="https://stahe.github.io/en-pam-aspnet-juin-2010/"><u><span style="color: #0563c1">https://stahe.github.io/en-pam-aspnet-juin-2010/</span></u></a>]
+  <li><b>Erstellung einer dreischichtigen Anwendung mit ASP.NET, C#, Spring.net und Nhibernate </b>[http://tahe.developpez.com/dotnet/pam-aspnet/]
   </li>
 </ul>
 
-<p>Die Anwendung in dieser Fallstudie weist die folgende dreischichtige Struktur auf:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000076F0000015CFFB7ECD1.png" width="680" height="124" style="display:inline-block; margin:4px;width:17.997cm;height:3.291cm;" class="odt-zoomable" data-zoom-src="images/100000000000076F0000015CFFB7ECD1.png" /></td></tr></table>
+<p>Die Anwendung dieser Fallstudie weist die folgende dreischichtige Struktur auf:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000076F0000015CFFB7ECD1.png" width="680" height="124" style="display:inline-block; margin:4px;width:17.997cm;height:3.29cm;" class="odt-zoomable" data-zoom-src="images/100000000000076F0000015CFFB7ECD1.png" /></td></tr></table>
 
 <ul>
-  <li>Die [1-DAO]-Schicht (DAO = Data Access Object) übernimmt den Datenzugriff. Die Daten werden in einer Datenbank gespeichert. Die [DAO]-Schicht nutzt das NHibernate-Framework, um auf die Daten zuzugreifen.
+  <li>Die Schicht [1-dao] (DAO = Data Access Object) ist für den Datenzugriff zuständig. Die Daten werden in einer Datenbank gespeichert. Die Schicht [dao] nutzt das Nhibernate-Framework für den Datenzugriff.
   </li>
-  <li>Die [2-Business]-Schicht übernimmt die Geschäftslogik der Anwendung, insbesondere die Lohn- und Gehaltsabrechnung.
+  <li>Die Schicht [2-métier] ist für den geschäftlichen Aspekt der Anwendung zuständig, nämlich die Berechnung der Gehaltsabrechnung.
   </li>
-  <li>Die [3-Presentation]-Schicht ist für die Darstellung der Daten gegenüber dem Benutzer und die Ausführung von Benutzeranfragen zuständig. Hierbei handelt es sich um eine Web-/ASP.NET-Schicht.
+  <li>Die Schicht [3-présentation] ist für die Darstellung der Daten gegenüber dem Benutzer und die Ausführung seiner Anfragen zuständig. Es handelt sich um eine Webschicht / ASP.NET.
   </li>
-  <li>Die drei Schichten werden durch die Verwendung von .NET-Schnittstellen voneinander unabhängig gemacht
+  <li>Die drei Schichten werden durch die Verwendung von Schnittstellen unabhängig voneinander gemacht: .NET
   </li>
-  <li>Die Integration der verschiedenen Schichten wird von <b>Spring.NET </b>übernommen
+  <li>Die Integration der verschiedenen Schichten erfolgt über <b>Spring.NET</b>
   </li>
 </ul>
 
-<p>Und natürlich können Sie Fachbücher lesen, wie das am Anfang dieses Dokuments zitierte:</p>
+<p>Und natürlich kann man Fachbücher lesen, wie das am Anfang dieses Dokuments erwähnte:</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
 <p><strong>Titel</strong>: NHibernate in Action, <strong>Autor</strong>: Pierre-Henri Kuaté, <strong>Verlag</strong>: Manning, <strong>ISBN-13</strong>: 978-1932394924</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />

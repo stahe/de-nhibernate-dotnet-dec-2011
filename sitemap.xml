@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://stahe.github.io/de-nhibernate-dotnet-dec-2011/index.html</loc>
-         <lastmod>2026-05-25</lastmod>
+         <lastmod>2026-06-19</lastmod>
     </url>
     <url>
-         <loc>https://stahe.github.io/de-nhibernate-dotnet-dec-2011/einfuhrung-in-nhibernate-orm.html</loc>
-         <lastmod>2026-05-25</lastmod>
+         <loc>https://stahe.github.io/de-nhibernate-dotnet-dec-2011/einfuhrung-in-orm-nhibernate.html</loc>
+         <lastmod>2026-06-19</lastmod>
     </url>
     <url>
          <loc>https://stahe.github.io/de-nhibernate-dotnet-dec-2011/fazit.html</loc>
-         <lastmod>2026-05-25</lastmod>
+         <lastmod>2026-06-19</lastmod>
     </url>
     <url>
-         <loc>https://stahe.github.io/de-nhibernate-dotnet-dec-2011/springnhibernate-integration.html</loc>
-         <lastmod>2026-05-25</lastmod>
+         <loc>https://stahe.github.io/de-nhibernate-dotnet-dec-2011/spring-integration--nhibernate.html</loc>
+         <lastmod>2026-06-19</lastmod>
     </url>
 </urlset>
